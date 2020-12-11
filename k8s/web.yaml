@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: cnych/todo:v1
+        image: cnych/todo:v1.1
         env:
         - name: "DBHOST"
           value: "mongodb://mongo.default.svc.cluster.local:27017"
